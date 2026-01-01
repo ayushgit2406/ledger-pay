@@ -1,0 +1,12 @@
+/Users/ayushrajsingh/Desktop/projects/ledger-pay/src/Domain/bin/Debug/net8.0/Domain.deps.json
+/Users/ayushrajsingh/Desktop/projects/ledger-pay/src/Domain/bin/Debug/net8.0/Domain.dll
+/Users/ayushrajsingh/Desktop/projects/ledger-pay/src/Domain/bin/Debug/net8.0/Domain.pdb
+/Users/ayushrajsingh/Desktop/projects/ledger-pay/src/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ayushrajsingh/Desktop/projects/ledger-pay/src/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/Users/ayushrajsingh/Desktop/projects/ledger-pay/src/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/Users/ayushrajsingh/Desktop/projects/ledger-pay/src/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/Users/ayushrajsingh/Desktop/projects/ledger-pay/src/Domain/obj/Debug/net8.0/Domain.sourcelink.json
+/Users/ayushrajsingh/Desktop/projects/ledger-pay/src/Domain/obj/Debug/net8.0/Domain.dll
+/Users/ayushrajsingh/Desktop/projects/ledger-pay/src/Domain/obj/Debug/net8.0/refint/Domain.dll
+/Users/ayushrajsingh/Desktop/projects/ledger-pay/src/Domain/obj/Debug/net8.0/Domain.pdb
+/Users/ayushrajsingh/Desktop/projects/ledger-pay/src/Domain/obj/Debug/net8.0/ref/Domain.dll
