@@ -26,7 +26,6 @@ The project models how **real-world payment systems** are designed, focusing on 
 - Environment Variables
 - Trade-offs
 - Future Improvements
-- License
 
 ---
 
