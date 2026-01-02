@@ -6,7 +6,7 @@ namespace Domain.Entities
     public class Order
     {
         public Guid Id { get; private set; }
-        public Money Amount { get; private set; }
+        public Money Amount { get; private set; } = null!;
         public OrderStatus Status { get; private set; }
         public DateTime CreatedAt { get; private set; }
 
