@@ -16,3 +16,5 @@
 /Users/ayushrajsingh/Desktop/projects/ledger-pay/src/Infrastructure/obj/Debug/net8.0/refint/Infrastructure.dll
 /Users/ayushrajsingh/Desktop/projects/ledger-pay/src/Infrastructure/obj/Debug/net8.0/Infrastructure.pdb
 /Users/ayushrajsingh/Desktop/projects/ledger-pay/src/Infrastructure/obj/Debug/net8.0/ref/Infrastructure.dll
+/Users/ayushrajsingh/Desktop/projects/ledger-pay/src/Infrastructure/bin/Debug/net8.0/Infrastructure.runtimeconfig.json
+/Users/ayushrajsingh/Desktop/projects/ledger-pay/src/Infrastructure/obj/Debug/net8.0/Infrastructure.genruntimeconfig.cache
