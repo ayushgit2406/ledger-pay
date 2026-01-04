@@ -1,4 +1,5 @@
 using Application.Interfaces;
+using Application.Services;
 using Infrastructure.Caching;
 using Infrastructure.Messaging;
 using Infrastructure.Persistence;
@@ -9,7 +10,6 @@ using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddDbContext<LedgerPayDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("Default")));
 
 var redisConnectionString =
@@ -47,19 +47,24 @@ builder.Services.AddSingleton(_ =>
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IPaymentRepository, PaymentRepository>();
 
+builder.Services.AddScoped<IOrderService, OrderService>();
+
 builder.Services.AddScoped<IMessagePublisher, RabbitMqPublisher>();
 builder.Services.AddScoped<IIdempotencyStore, RedisIdempotencyStore>();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+builder.Services.AddControllers();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.MapControllers();
 
 app.Run();
